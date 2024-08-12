@@ -84,17 +84,25 @@ const Footer = () => {
               <h1 className="text-amber-700 -space-y-10 ">---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</h1>
               <h1 className="text-center  text-amber-500 text-xl font-bold mb-3">FOLLOW ME</h1>
             <div className="flex ml-[510px]">
-            <h1 className="text-2xl text-center text-amber-600 hover:text-amber-500 hover:bg-gray-700	px-4 py-3 ml-5 mr-5 rounded-full bg-white mb-5"><a href=""><FaFacebookF></FaFacebookF></a></h1>
+           <a href="https://www.facebook.com/md.rasif.315" target="_blank">
+           <h1 className="text-2xl text-center text-amber-600 hover:text-amber-500 hover:bg-gray-700	px-4 py-3 ml-5 mr-5 rounded-full bg-white mb-5"><a href=""><FaFacebookF></FaFacebookF></a></h1>
+           </a>
 
+            <a href="https://www.instagram.com/md_rasif_/" target="_blank">
             <h1 className="text-2xl text-center text-amber-600 hover:text-amber-500 hover:bg-gray-700	px-4 py-3 ml-5 mr-5 rounded-full bg-white mb-5"><a href=""><FaInstagramSquare></FaInstagramSquare></a></h1>
+            </a>
 
+            <a href="https://www.linkedin.com/in/mohammed-rasif/" target="_blank">
             <h1 className="text-2xl text-center text-amber-600 hover:text-amber-500 hover:bg-gray-700	px-4 py-3 ml-5 mr-5 rounded-full bg-white mb-5"><a href=""><FaLinkedin></FaLinkedin></a></h1>
+            </a>
 
             
             <h1 className="text-2xl text-center text-amber-600 hover:text-amber-500 hover:bg-gray-700	px-4 py-3 ml-5 mr-5 rounded-full bg-white mb-5"><a href=""><FaTwitter></FaTwitter></a></h1>
 
             
-            <h1 className="text-2xl text-center text-amber-600 hover:text-amber-500 hover:bg-gray-700	px-4 py-3 ml-5 mr-5 rounded-full bg-white mb-5"><a href=""><FaGithubSquare></FaGithubSquare></a></h1>
+           <a href="https://github.com/MohammedRasif" target="_blank">
+           <h1 className="text-2xl text-center text-amber-600 hover:text-amber-500 hover:bg-gray-700	px-4 py-3 ml-5 mr-5 rounded-full bg-white mb-5"><a href=""><FaGithubSquare></FaGithubSquare></a></h1>
+           </a>
 
             </div>
       </div>

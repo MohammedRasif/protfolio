@@ -40,7 +40,8 @@ const Project = () => {
               </div>
               <div className="space-y-6 pt-5 text-base leading-7 text-black font-efg transition-all duration-300 group-hover:text-black">
                 <p>
-                A welcoming, family-friendly restaurant featuring a diverse menu with fresh, locally sourced ingredients. Enjoy a warm ambiance, exceptional service, and delicious dishes that cater to all tastes.                </p>
+                Our group study website connects students, offers study resources, organizes virtual study sessions, and provides interactive tools to enhance collaborative learning and academic success.
+              </p>
               </div>
               <div className="pt-5 text-base font-semibold leading-7">
                 <p>
@@ -82,7 +83,8 @@ const Project = () => {
               </div>
               <div className="space-y-6 pt-5 text-base leading-7 text-black font-efg transition-all duration-300 group-hover:text-black">
                 <p>
-                A welcoming, family-friendly restaurant featuring a diverse menu with fresh, locally sourced ingredients. Enjoy a warm ambiance, exceptional service, and delicious dishes that cater to all tastes.                </p>
+                Travel enriches life by broadening perspectives, fostering cultural understanding, and creating lasting memories through exploring new destinations and meeting diverse people.
+          </p>
               </div>
               <div className="pt-5 text-base font-semibold leading-7">
                 <p>
@@ -125,8 +127,9 @@ const Project = () => {
                 </div>
               </div>
               <div className="space-y-6 pt-5 text-base leading-7 text-black font-efg transition-all duration-300 group-hover:text-black">
-                <p>
-                A welcoming, family-friendly restaurant featuring a diverse menu with fresh, locally sourced ingredients. Enjoy a warm ambiance, exceptional service, and delicious dishes that cater to all tastes.                </p>
+                <p> A welcoming, family-friendly restaurant featuring a diverse menu with fresh, locally sourced ingredients. Enjoy a warm ambiance, exceptional service, and delicious dishes that cater to all tastes.   
+               
+  </p>
               </div>
               <div className="pt-5 text-base font-semibold leading-7">
                 <p>

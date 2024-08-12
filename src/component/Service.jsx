@@ -10,7 +10,7 @@ const Service = () => {
 
       <div>
 
-        <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-10">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-10">
         <div className="card-body w-[600px] bg-stone-900 text-white mt-10 ml-10">
             <h2 className=" font-bold font-abc text-4xl pl-24 pb-4 text-amber-500">Web Designer</h2>
             <p>A web designer blends creativity and technical skills to craft visually appealing, user-friendly websites. They focus on layout, color schemes, typography, and graphics to create an engaging online experience. With a keen eye for detail, they balance aesthetics and functionality, ensuring websites are intuitive and accessible across all devices.

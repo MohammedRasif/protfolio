@@ -7,8 +7,8 @@ const Education = () => {
       <h1 className="text-2xl font-abc text-center mb-10 text-amber-400">
         <span className="text-sm ">MY</span>  Story
       </h1>
-     <div className="flex">
-     <div>
+     <div className="flex ml-20">
+     <div >
         <h1 className="text-5xl font-bold text-amber-500 mb-10">Experience</h1>
         <div className="">
           <div className="flex">

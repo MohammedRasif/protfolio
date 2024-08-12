@@ -13,6 +13,10 @@ import Footer from "./Footer";
 import Project from "../../Project";
 import Navbar from "../../Navbar";
 import video from "../video.mp4"
+import { Typewriter } from "react-simple-typewriter";
+
+
+ 
 
 
 const Home = () => {
@@ -27,34 +31,37 @@ const Home = () => {
         <div className="w-1/2 ml-10 mt-52 mb-[200px]   font-efg">
           <div >
             <br />
-
-            <ReactTyped
-            className="text-5xl text-amber-400 "
-              strings={[
-                "Hello! I'm Mohammed Rasif",
-                "Hello! I'm Web Developer",
-                "Hello! I'm a freelancer",
-              ]}
-              typeSpeed={70}
-              backSpeed={70}
-              attr="placeholder"
-              loop
-            >
-              <input type="text" className="text-amber-400" />
-            </ReactTyped>
+            <h2 className="text-5xl text-left font-bold font-efg  md:my-3 ">
+        {`Hello! I'm  `} 
+        <span className="text-amber-400">
+          <Typewriter
+            words={[
+              "Mohammed Rasif",
+              "Jr.Web Developer",
+              "a Freelancer",
+            ]}
+            loop={100}
+            cursor
+            cursorStyle="_"
+            typeSpeed={100}
+            deleteSpeed={100}
+            delaySpeed={1800}
+          />
+        </span>
+      </h2>
           </div>
 
 
           <p className="text-xl my-5">I'm a junior web developer passionate about building beautiful and functional websites. I specialize in full-Stak  development and have experience with HTML, CSS,Tailwind CSS, JavaScript, React JS ,Node JS, Express JS , MondoDB And Github  . I love solving problems and learning new skills. Currently ,I'm eager to collaborate and grow in the web development field.</p>
-          <div >
+          {/* <div >
            <NavLink to="allDetails"> <button className=" px-7 py-4 bg-amber-600 text-black rounded-full font-bold mt-4 hover:bg-gray-600"><div className="flex items-center  "><IoPersonSharp></IoPersonSharp> <span className="ml-2 hover:text-white">MORE ABOUT ME</span></div></button></NavLink>
 
 
-            <a href="../Resumee.pdf"><button className=" px-7 py-4 ml-10  text-amber-500 border-x-2 border-y-2 border-amber-600 bg:text-black rounded-full font-bold mt-4 hover:text-amber-600 hover:bg-amber-600"><div className="flex items-center  "><IoMdCloudDownload className="hover:text-white"></IoMdCloudDownload> <span className="ml-2 hover:text-white">DOWNLOAD CV</span></div></button></a>
-          </div>
+            <a href="../Resumee.pdf" ><button className=" px-7 py-4 ml-10  text-amber-500 border-x-2 border-y-2 border-amber-600 bg:text-black rounded-full font-bold mt-4 hover:text-amber-600 hover:bg-amber-600"><div className="flex items-center  "><IoMdCloudDownload className="hover:text-white"></IoMdCloudDownload> <span className="ml-2 hover:text-white">DOWNLOAD CV</span></div></button></a>
+          </div> */}
         </div>
         <div className="ml-5">
-              <img src={img} alt="" className="h-[500px] w-[500px] rounded-full mt-40 ml-20"  />
+              <img src={img} alt="" className="h-[500px] w-[500px] rounded-full mt-32 ml-20"  />
         </div>
       </div>
 
