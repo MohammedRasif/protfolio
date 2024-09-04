@@ -59,7 +59,7 @@ const Project = () => {
         </div>
         </a>
 
-        <a href="https://nature-of-travel.web.app/" target="_blank">
+        <a href="https://moviez-bc050.web.app/" target="_blank">
         <div className="relative flex  flex-col justify-center overflow-hidden bg-stone-900  ">
           <div className="group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm rounded-lg sm:px-10">
             <span className="absolute top-10 z-0 h-20 w-20 rounded-full bg-amber-400 transition-all duration-300 group-hover:scale-[10]"></span>
@@ -78,12 +78,12 @@ const Project = () => {
                 </svg>
               </span>
                 <div className="font-abc text-2xl font-bold ml-5 mt-6 text-black uppercase">
-                The nature travel
+                Winning Zone
                 </div>
               </div>
               <div className="space-y-6 pt-5 text-base leading-7 text-black font-efg transition-all duration-300 group-hover:text-black">
                 <p>
-                Travel enriches life by broadening perspectives, fostering cultural understanding, and creating lasting memories through exploring new destinations and meeting diverse people.
+                Explore the Winning Zone, your ultimate destination for expert strategies, tips, and tools to excel in online gaming. Stay ahead with game reviews, guides, and the latest esports news.
           </p>
               </div>
               <div className="pt-5 text-base font-semibold leading-7">
