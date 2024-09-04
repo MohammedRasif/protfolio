@@ -61,8 +61,8 @@ const Home = () => {
       {/* <DetailsMe></DetailsMe> */}
       <Skill></Skill>
       <Experiance></Experiance>
-      {/* <Project></Project> */}
-      {/* <Service></Service> */}
+      <Project></Project>
+      <Service></Service>
       {/* <Education></Education> */}
       {/* <Contact></Contact> */}
       {/* <Footer></Footer> */}
