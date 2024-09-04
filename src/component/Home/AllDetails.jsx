@@ -1,5 +1,4 @@
 import About from '../About';
-import DetailsMe from '../AllPage/DetailsMe';
 import Contact from '../Contact';
 import Education from '../Education';
 import Experiance from '../Experiance';

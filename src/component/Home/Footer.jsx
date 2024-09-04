@@ -92,7 +92,7 @@ const Footer = () => {
             <h1 className="text-2xl text-center text-amber-600 hover:text-amber-500 hover:bg-gray-700	px-4 py-3 ml-5 mr-5 rounded-full bg-white mb-5"><a href=""><FaInstagramSquare></FaInstagramSquare></a></h1>
             </a>
 
-            <a href="https://www.linkedin.com/in/mohammed-rasif/" target="_blank">
+            <a href="https://www.linkedin.com/in/mohammad-rasif/" target="_blank">
             <h1 className="text-2xl text-center text-amber-600 hover:text-amber-500 hover:bg-gray-700	px-4 py-3 ml-5 mr-5 rounded-full bg-white mb-5"><a href=""><FaLinkedin></FaLinkedin></a></h1>
             </a>
 

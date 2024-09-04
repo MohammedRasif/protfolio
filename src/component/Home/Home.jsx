@@ -2,8 +2,7 @@ import { ReactTyped } from "react-typed";
 import { IoPersonSharp } from "react-icons/io5";
 import { IoMdCloudDownload } from "react-icons/io";
 import { NavLink } from "react-router-dom";
-import img from "../picture.jpg"
-import DetailsMe from "../AllPage/DetailsMe";
+import img from "../picture.jpg";
 import Skill from "../Skill";
 import Experiance from "../Experiance";
 import Service from "../Service";
@@ -12,47 +11,42 @@ import Contact from "../Contact";
 import Footer from "./Footer";
 import Project from "../../Project";
 import Navbar from "../../Navbar";
-import video from "../video.mp4"
+import video from "../video.mp4";
 import { Typewriter } from "react-simple-typewriter";
-
-
- 
-
 
 const Home = () => {
   return (
     <div className="">
       <Navbar></Navbar>
 
-
-
-
       <div className="flex  bg-black text-white">
         <div className="w-1/2 ml-10 mt-52 mb-[200px]   font-efg">
-          <div >
+          <div>
             <br />
             <h2 className="text-5xl text-left font-bold font-efg  md:my-3 ">
-        {`Hello! I'm  `} 
-        <span className="text-amber-400">
-          <Typewriter
-            words={[
-              "Mohammed Rasif",
-              "Jr.Web Developer",
-              "a Freelancer",
-            ]}
-            loop={100}
-            cursor
-            cursorStyle="_"
-            typeSpeed={100}
-            deleteSpeed={100}
-            delaySpeed={1800}
-          />
-        </span>
-      </h2>
+              {`Hello! I'm  `}
+              <span className="text-amber-400">
+                <Typewriter
+                  words={["Mohammed Rasif", "Jr.Web Developer", "a Freelancer"]}
+                  loop={100}
+                  cursor
+                  cursorStyle="_"
+                  typeSpeed={100}
+                  deleteSpeed={100}
+                  delaySpeed={1800}
+                />
+              </span>
+            </h2>
           </div>
 
-
-          <p className="text-xl my-5">I'm a junior web developer passionate about building beautiful and functional websites. I specialize in full-Stak  development and have experience with HTML, CSS,Tailwind CSS, JavaScript, React JS ,Node JS, Express JS , MondoDB And Github  . I love solving problems and learning new skills. Currently ,I'm eager to collaborate and grow in the web development field.</p>
+          <p className="text-xl my-5">
+            I'm a junior web developer passionate about building beautiful and
+            functional websites. I specialize in full-Stak development and have
+            experience with HTML, CSS,Tailwind CSS, JavaScript, React JS ,Node
+            JS, Express JS , MondoDB And Github . I love solving problems and
+            learning new skills. Currently ,I'm eager to collaborate and grow in
+            the web development field.
+          </p>
           {/* <div >
            <NavLink to="allDetails"> <button className=" px-7 py-4 bg-amber-600 text-black rounded-full font-bold mt-4 hover:bg-gray-600"><div className="flex items-center  "><IoPersonSharp></IoPersonSharp> <span className="ml-2 hover:text-white">MORE ABOUT ME</span></div></button></NavLink>
 
@@ -61,23 +55,22 @@ const Home = () => {
           </div> */}
         </div>
         <div className="ml-5">
-              <img src={img} alt="" className="h-[500px] w-[500px] rounded-full mt-32 ml-20"  />
+          <img
+            src={img}
+            alt=""
+            className="h-[500px] w-[500px] rounded-full mt-32 ml-20"
+          />
         </div>
       </div>
 
-
-
-            {/* <DetailsMe></DetailsMe> */}
-            <Skill></Skill>
-            <Experiance></Experiance>
-            <Project></Project>
-            <Service></Service>
-            <Education></Education>
-            <Contact></Contact>
-            <Footer></Footer>
-
-
-
+      {/* <DetailsMe></DetailsMe> */}
+      <Skill></Skill>
+      <Experiance></Experiance>
+      <Project></Project>
+      <Service></Service>
+      <Education></Education>
+      <Contact></Contact>
+      <Footer></Footer>
     </div>
   );
 };
