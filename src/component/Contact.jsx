@@ -6,16 +6,16 @@ import { IoPersonSharp } from "react-icons/io5";
 
 const Contact = () => {
   return (
-    <div className="p-40 bg-black">
-      <h1 className="text-center text-7xl font-abc font-extrabold text-white">
+    <div className="lg:p-40 bg-black lg:pb-0 pb-10">
+      <h1 className="text-center lg:text-7xl text-4xl lg:pt-0 pt-20 font-abc font-extrabold text-white">
         CONTACT ME
       </h1>
       <h1 className="text-2xl font-abc text-center text-amber-400">
         <span className="text-sm ">LET'S</span> Talk About Ideas
       </h1>
 
-      <div className="flex mt-10">
-        <div className="-space-y-4 text-amber-500 ">
+      <div className="flex   mt-10">
+        <div className="-space-y-4 text-amber-500 hidden lg:inline-block ">
           <h1 className="text-3xl">o</h1>
           <div>
             <div className="-space-y-3 ml-[6px]">
@@ -81,7 +81,7 @@ const Contact = () => {
                    </div>
                 </div>
             </div>
-            <div className="text-white mt-12 ml-10">
+            <div className="text-white lg:mt-12 mt-8 ml-10">
                 <h1 className="text-3xl ">Address</h1>
                 <h1>Chittagong,Bangladesh</h1>
             </div>
@@ -105,7 +105,7 @@ const Contact = () => {
                    </div>
                 </div>
             </div>
-            <div className="text-white mt-12 ml-10">
+            <div className="text-white lg:mt-12 mt-8 ml-10">
                 <h1 className="text-3xl ">Freelance</h1>
                 <h1>Available Right Now</h1>
             </div>
@@ -129,7 +129,7 @@ const Contact = () => {
                    </div>
                 </div>
             </div>
-            <div className="text-white mt-12 ml-10">
+            <div className="text-white lg:mt-12 mt-8 ml-10">
                 <h1 className="text-3xl ">Email</h1>
                 <h1>mdrasif3499@gmail.com</h1>
             </div>
@@ -153,7 +153,7 @@ const Contact = () => {
                    </div>
                 </div>
             </div>
-            <div className="text-white mt-12 ml-10">
+            <div className="text-white lg:mt-12 mt-8 ml-10">
                 <h1 className="text-3xl ">Phone</h1>
                 <h1>01607115111 / 01976600215</h1>
             </div>
@@ -163,8 +163,8 @@ const Contact = () => {
 
      {/* from section */}
 
-       <div className="ml-20">
-            <div className="flex">
+       <div className="ml-20 hidden lg:inline-block">
+            <div className="flex ">
                 <div>
                 <h1 className="text-white ml-5 mb-2">YOUR FULL NAME <span className="text-2xl text-amber-400">*</span></h1>
                 <input type="text" className="border-x-2 border-y-2 rounded-3xl px-20 py-3 text-amber-400 border-amber-400 bg-stone-800" />

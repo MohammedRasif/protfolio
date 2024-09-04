@@ -63,9 +63,9 @@ const Home = () => {
       <Experiance></Experiance>
       <Project></Project>
       <Service></Service>
-      {/* <Education></Education> */}
-      {/* <Contact></Contact> */}
-      {/* <Footer></Footer> */}
+      <Education></Education>
+      <Contact></Contact>
+      <Footer></Footer>
     </div>
   );
 };
