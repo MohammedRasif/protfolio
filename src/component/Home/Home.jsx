@@ -53,14 +53,14 @@ const Home = () => {
           <img
             src={img}
             alt=""
-            className="lg:h-[500px] h-[250px] w-[250px] lg:w-[500px] rounded-full lg:mt-32 lg:ml-20"
+            className="lg:h-[500px] h-[250px] w-[250px] lg:w-[500px] border-4  border-orange-500 rounded-full lg:mt-32 lg:ml-20"
           />
         </div>
       </div>
 
       {/* <DetailsMe></DetailsMe> */}
-      {/* <Skill></Skill> */}
-      {/* <Experiance></Experiance> */}
+      <Skill></Skill>
+      <Experiance></Experiance>
       {/* <Project></Project> */}
       {/* <Service></Service> */}
       {/* <Education></Education> */}
