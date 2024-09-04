@@ -19,11 +19,11 @@ const Home = () => {
     <div className="">
       <Navbar></Navbar>
 
-      <div className="flex  bg-black text-white">
-        <div className="w-1/2 ml-10 mt-52 mb-[200px]   font-efg">
+      <div className="flex lg:flex-row flex-col lg:p-0 p-5 bg-black text-white">
+        <div className="lg:w-1/2 lg:ml-10  lg:mt-52 mt-16 lg:mb-[200px]   font-efg">
           <div>
             <br />
-            <h2 className="text-5xl text-left font-bold font-efg  md:my-3 ">
+            <h2 className="lg:text-5xl text-2xl text-left font-bold font-efg  md:my-3 ">
               {`Hello! I'm  `}
               <span className="text-amber-400">
                 <Typewriter
@@ -39,7 +39,7 @@ const Home = () => {
             </h2>
           </div>
 
-          <p className="text-xl my-5">
+          <p className="lg:text-xl text-sm my-5">
             I'm a junior web developer passionate about building beautiful and
             functional websites. I specialize in full-Stak development and have
             experience with HTML, CSS,Tailwind CSS, JavaScript, React JS ,Node
@@ -47,30 +47,25 @@ const Home = () => {
             learning new skills. Currently ,I'm eager to collaborate and grow in
             the web development field.
           </p>
-          {/* <div >
-           <NavLink to="allDetails"> <button className=" px-7 py-4 bg-amber-600 text-black rounded-full font-bold mt-4 hover:bg-gray-600"><div className="flex items-center  "><IoPersonSharp></IoPersonSharp> <span className="ml-2 hover:text-white">MORE ABOUT ME</span></div></button></NavLink>
-
-
-            <a href="../Resumee.pdf" ><button className=" px-7 py-4 ml-10  text-amber-500 border-x-2 border-y-2 border-amber-600 bg:text-black rounded-full font-bold mt-4 hover:text-amber-600 hover:bg-amber-600"><div className="flex items-center  "><IoMdCloudDownload className="hover:text-white"></IoMdCloudDownload> <span className="ml-2 hover:text-white">DOWNLOAD CV</span></div></button></a>
-          </div> */}
+         
         </div>
-        <div className="ml-5">
+        <div className="lg:ml-5 flex justify-center items-center">
           <img
             src={img}
             alt=""
-            className="h-[500px] w-[500px] rounded-full mt-32 ml-20"
+            className="lg:h-[500px] h-[250px] w-[250px] lg:w-[500px] rounded-full lg:mt-32 lg:ml-20"
           />
         </div>
       </div>
 
       {/* <DetailsMe></DetailsMe> */}
-      <Skill></Skill>
-      <Experiance></Experiance>
-      <Project></Project>
-      <Service></Service>
-      <Education></Education>
-      <Contact></Contact>
-      <Footer></Footer>
+      {/* <Skill></Skill> */}
+      {/* <Experiance></Experiance> */}
+      {/* <Project></Project> */}
+      {/* <Service></Service> */}
+      {/* <Education></Education> */}
+      {/* <Contact></Contact> */}
+      {/* <Footer></Footer> */}
     </div>
   );
 };
