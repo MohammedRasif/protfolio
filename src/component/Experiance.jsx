@@ -28,7 +28,7 @@ const Experiance = () => {
       Experience
       </h1>
       <h1 className="text-2xl font-abc text-center text-amber-400">
-        <span className="text-sm ">MY</span> Talent
+        <span className="text-sm ">MY</span> Works
       </h1>
      
 
