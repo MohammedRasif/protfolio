@@ -8,7 +8,7 @@ const Header = () => {
     
   return (
     <div>
-      <div className="flex flex-col lg:flex-row lg:p-0 px-5 bg-black text-white">
+      <div className="flex flex-col lg:flex-row lg:p-0 px-2 bg-black text-white">
         {/* Text Section */}
         <motion.div
           className="lg:w-1/2 lg:ml-10 lg:mt-52 mt-16 lg:mb-[200px] mb-10 font-efg text-center lg:text-left"
@@ -47,9 +47,9 @@ const Header = () => {
             learning new skills. Currently, I'm eager to collaborate and grow in
             the web development field.
           </motion.p>
-          <a href={resume} download="Resume">
-          <div className="flex items-center space-x-2 mt-5  py-2 lg:mr-[500px] rounded-full border-4 font-semibold border-orange-500 bg-orange-500 hover:bg-black  text-black hover:text-white">
-            <button  className=" flex items-center space-x-2 lg:pl-16 text-xl">
+          <a href={resume} download="Resume" >
+          <div className="flex items-center space-x-2 mt-5 lg:mr-[500px] lg:ml-0 md:ml-32 md:mr-32 rounded-full border-4 font-semibold border-orange-500 bg-orange-500 hover:bg-black  text-black hover:text-white">
+            <button  className=" flex items-center space-x-2 lg:pl-16 md:pl-40  pl-16 text-xl">
               <span className="">Download Resume</span>
               <FaCloudDownloadAlt className="" />
             </button>
