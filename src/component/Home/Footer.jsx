@@ -7,44 +7,69 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 
-
-
-
-
 const Footer = () => {
-    return (
-        <div className="bg-black lg:pt-10 pb-10">
-     
+  return (
+    <div className="bg-black lg:pt-10 pb-10 w-full">
+      <div className="flex flex-col justify-center items-center">
+        {/* Horizontal line */}
+        <h1 className="text-amber-700 hidden lg:block lg:w-full mb-3">
+          ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        </h1>
 
+        {/* "Follow Me" Title */}
+        <h1 className="text-center text-amber-500 text-xl font-bold py-5">
+          FOLLOW ME
+        </h1>
 
-    <div className=" flex flex-col justify-center">
-              <h1 className="text-amber-700 -space-y-10 hidden lg:inline-block ">---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</h1>
-              <h1 className="text-center  text-amber-500 text-xl font-bold py-5 mb-3">FOLLOW ME</h1>
-            <div className="flex items-center justify-center">
-           <a href="https://www.facebook.com/md.rasif.315" target="_blank">
-           <h1 className="text-2xl text-center text-amber-600 hover:text-amber-500 hover:bg-gray-700	px-4 py-4 ml-5 mr-5 rounded-full bg-white mb-5"><a href=""><FaFacebookF></FaFacebookF></a></h1>
-           </a>
-
-            <a href="https://www.instagram.com/md_rasif_/" target="_blank">
-            <h1 className="text-2xl text-center text-amber-600 hover:text-amber-500 hover:bg-gray-700	px-4 py-4 ml-5 mr-5 rounded-full bg-white mb-5"><a href=""><FaInstagramSquare></FaInstagramSquare></a></h1>
-            </a>
-
-            <a href="https://www.linkedin.com/in/mohammad-rasif/" target="_blank">
-            <h1 className="text-2xl text-center text-amber-600 hover:text-amber-500 hover:bg-gray-700	px-4 py-4 ml-5 mr-5 rounded-full bg-white mb-5"><a href=""><FaLinkedin></FaLinkedin></a></h1>
-            </a>
-
-            
-
-            
-           <a href="https://github.com/MohammedRasif" target="_blank">
-           <h1 className="text-2xl text-center text-amber-600 hover:text-amber-500 hover:bg-gray-700	px-4 py-4 ml-5 mr-5 rounded-full bg-white mb-5"><a href=""><FaGithubSquare></FaGithubSquare></a></h1>
-           </a>
-
+        {/* Social Media Icons */}
+        <div className="flex flex-wrap justify-center items-center gap-4">
+          {/* Facebook */}
+          <a
+            href="https://www.facebook.com/md.rasif.315"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="text-2xl text-amber-600 hover:text-amber-500 hover:bg-gray-700 px-4 py-4 rounded-full bg-white mb-5">
+              <FaFacebookF />
             </div>
-      </div>
+          </a>
+
+          {/* Instagram */}
+          <a
+            href="https://www.instagram.com/md_rasif_/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="text-2xl text-amber-600 hover:text-amber-500 hover:bg-gray-700 px-4 py-4 rounded-full bg-white mb-5">
+              <FaInstagramSquare />
+            </div>
+          </a>
+
+          {/* LinkedIn */}
+          <a
+            href="https://www.linkedin.com/in/mohammad-rasif/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="text-2xl text-amber-600 hover:text-amber-500 hover:bg-gray-700 px-4 py-4 rounded-full bg-white mb-5">
+              <FaLinkedin />
+            </div>
+          </a>
+
+          {/* GitHub */}
+          <a
+            href="https://github.com/MohammedRasif"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="text-2xl text-amber-600 hover:text-amber-500 hover:bg-gray-700 px-4 py-4 rounded-full bg-white mb-5">
+              <FaGithubSquare />
+            </div>
+          </a>
         </div>
-    
-    );
+      </div>
+    </div>
+  );
 };
 
 export default Footer;

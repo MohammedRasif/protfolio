@@ -23,7 +23,7 @@ const Experiance = () => {
     'aria-busy': loading,
   };
   return (
-    <div className="bg-black py-10">
+    <div className="bg-black text-slate-500 py-10">
       <h1 className="text-center lg:text-7xl text-4xl font-abc font-extrabold text-white uppercase">
       Experience
       </h1>
@@ -32,7 +32,7 @@ const Experiance = () => {
       </h1>
      
 
-      <div className=" flex lg:flex-row flex-col items-center bg-white lg:mx-96 mx-10 lg:mt-5 mt-8 lg:my-10 lg:py-10 rounded-xl ">
+      <div className=" flex lg:flex-row flex-col items-center bg-white  lg:mx-96 mx-10 lg:mt-5 mt-8 lg:my-10 lg:py-10 rounded-xl ">
       <div className="lg:ml-36 ">
             <div className="text-3xl ">
             <FaCode className="  lg:ml-[67px] ml-8 mt-5 text-4xl"></FaCode> 
@@ -56,7 +56,7 @@ const Experiance = () => {
             </>         
             </div>
         </div>
-        <div className="lg:ml-36 ">
+        <div className="lg:ml-56 ">
             <div className="text-3xl ">
             <FaCode className="  lg:ml-[67px] ml-24 mt-5 text-4xl"></FaCode> 
             <>

@@ -11,7 +11,6 @@ import Contact from "../Contact";
 import Footer from "./Footer";
 import Project from "../../Project";
 import Navbar from "../../Navbar";
-import video from "../video.mp4";
 import { Typewriter } from "react-simple-typewriter";
 
 const Home = () => {

@@ -10,7 +10,6 @@ import Roots from './Roots.jsx';
 import ErrorPage from './component/Home/ErrorPage.jsx';
 import Home from './component/Home/Home.jsx';
 import About from './component/About.jsx';
-import AllDetails from './component/Home/AllDetails.jsx';
 
 const router = createBrowserRouter([
   {
@@ -30,10 +29,7 @@ const router = createBrowserRouter([
       ,
       
       
-      {
-        path:"/allDetails",
-        element:<AllDetails></AllDetails>
-      }
+      
     ]
 
   }

@@ -4,7 +4,7 @@ import img from "./component/image/Removebg-preview.png"
 
 const Project = () => {
   return (
-    <div className="bg-stone-900  ">
+    <div className="bg-stone-900 lg:pb-10  ">
       <div className="pt-10 lg:pb-10">
       <h1 className="text-center text-7xl font-abc font-extrabold text-white ">
         Project
