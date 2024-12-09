@@ -32,14 +32,24 @@ const projects = [
     link: "https://restaurantly-c186b.web.app/",
   },
   {
-    id: 3,
-    title: "Restaurantly",
+    id: 4,
+    title: "The nature travel",
     description:
-      "A welcoming, family-friendly restaurant featuring a diverse menu with fresh, locally sourced ingredients. Enjoy a warm ambiance, exceptional service, and delicious dishes that cater to all tastes.",
+      "Discover serene landscapes, hidden trails, and pristine nature. Perfect for adventurers and nature lovers seeking unforgettable journeys, peaceful escapes, and a deep connection with the beauty of the outdoors.",
     icon: <GiFilmProjector className="h-14 w-14 ml-5 mt-4 text-white" />,
-    image: "https://i.ibb.co.com/hcfxLHS/Screenshot-15.png",
+    image: "https://i.ibb.co.com/cxkywbY/Screenshot-17.png",
 
-    link: "https://restaurantly-c186b.web.app/",
+    link: "https://nature-of-travel.web.app/",
+  },
+  {
+    id: 5,
+    title: "Restaurant",
+    description:
+      "Experience a cozy restaurant with a diverse menu featuring fresh, locally sourced ingredients. Enjoy exceptional service, a warm ambiance, and delicious dishes crafted to satisfy every palate",
+    icon: <GiFilmProjector className="h-14 w-14 ml-5 mt-4 text-white" />,
+    image: "https://i.ibb.co.com/KDXs44C/Screenshot-16.png",
+
+    link: "https://restauranty.netlify.app/",
   }
 ];
 
