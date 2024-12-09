@@ -5,6 +5,8 @@ import {
 } from "react-icons/ri";
 import { SiCss3, SiMongodb } from "react-icons/si";
 import { FaBootstrap, FaGithub, FaHtml5, FaNodeJs } from "react-icons/fa";
+import { RiNextjsLine } from "react-icons/ri";
+
 import { SiExpress } from "react-icons/si";
 import { TbBrandJavascript } from "react-icons/tb";
 import { motion } from "framer-motion";
@@ -97,6 +99,15 @@ const Skill = () => {
             className="rounded-2xl border-4 border-slate-700 p-4"
           >
             <RiReactjsLine className="text-5xl md:text-7xl text-cyan-400" />
+          </motion.div>
+          {/* Next Icon */}
+          <motion.div
+            variants={iconsVariation(4)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-slate-700 p-4"
+          >
+            <RiNextjsLine className="text-5xl md:text-7xl text-cyan-400" />
           </motion.div>
 
           {/* MongoDB Icon */}

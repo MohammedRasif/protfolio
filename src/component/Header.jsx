@@ -47,9 +47,9 @@ const Header = () => {
             learning new skills. Currently, I'm eager to collaborate and grow in
             the web development field.
           </motion.p>
-          <a href={resume} download="Resume" >
-          <div className="flex items-center space-x-2 mt-5 lg:mr-[500px] lg:ml-0 md:ml-32 md:mr-32 rounded-full border-4 font-semibold border-orange-500 bg-orange-500 hover:bg-black  text-black hover:text-white">
-            <button  className=" flex items-center space-x-2 lg:pl-16 md:pl-40  pl-16 text-xl">
+          <a href={resume} download="Resume"  >
+          <div className="flex items-center space-x-2 mt-5 lg:mr-[400px] lg:ml-0 py-2 rounded-full border-4 font-semibold border-orange-500 bg-orange-500 hover:bg-black  text-black hover:text-white">
+            <button  className=" flex items-center space-x-2 lg:pl-16 md:pl-52 pl-16 text-xl">
               <span className="">Download Resume</span>
               <FaCloudDownloadAlt className="" />
             </button>

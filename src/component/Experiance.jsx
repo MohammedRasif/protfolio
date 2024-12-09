@@ -63,7 +63,7 @@ const Experiance = () => {
           <div className="flex ">
           <CountUp
           className="font-efg font-bold text-5xl lg:ml-14 ml-24 mt-2 "
-          end={7}
+          end={1}
           duration="4"
           onStart={onStart}
           onEnd={onEnd}
@@ -73,7 +73,7 @@ const Experiance = () => {
           </CountUp>
             <h1 className="font-bold font-efg mt-1 text-5xl">+</h1>  
           </div> 
-          <h1 className="text-3xl font-abc font-bold text-amber-600 lg:pb-0 pb-10  ">Months of Experience</h1>
+          <h1 className="text-3xl font-abc font-bold text-amber-600 lg:pb-0 pb-10  ">Years of Experience</h1>
 
                 
             </>         

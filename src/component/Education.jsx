@@ -56,9 +56,9 @@ const Education = () => {
                 </p>
               </div>
               <div className="text-white lg:ml-10  lg:pr-20 mt-9 ">
-                <h1 className="font-bold text-xl">MERN Stack Developer</h1>
+                <h1 className="font-bold text-xl">Web Developer</h1>
                 <p>
-                As a MERN stack developer, I specialize in building full-fledged web applications, managing both front-end and back-end tasks. With expertise in JavaScript, React, Node.js, and MongoDB, I deliver dynamic, scalable, and efficient solutions that meet user and business needs.                </p>
+                As a Web developer, I specialize in building full-fledged web applications, managing both front-end and back-end tasks. With expertise in JavaScript, React Js, Node.js, Express js, firebase and MongoDB, I deliver dynamic, scalable, and efficient solutions that meet user and business needs.                </p>
               </div>
             </div>
           </div>
