@@ -8,7 +8,7 @@ import { FaBootstrap, FaGithub, FaHtml5, FaNodeJs } from "react-icons/fa";
 import { RiNextjsLine } from "react-icons/ri";
 
 import { SiExpress } from "react-icons/si";
-import { TbBrandJavascript } from "react-icons/tb";
+import { TbBrandJavascript, TbBrandMysql } from "react-icons/tb";
 import { motion } from "framer-motion";
 
 const Skill = () => {
@@ -26,7 +26,7 @@ const Skill = () => {
   });
 
   return (
-    <div className="pt-20 bg-stone-900 w-full">
+    <div id="skill" className="pt-20 bg-stone-900 w-full">
       <h1 className="text-center lg:text-7xl text-4xl font-abc font-extrabold text-white">
         PROFESSIONAL SKILL
       </h1>
@@ -110,15 +110,7 @@ const Skill = () => {
             <RiNextjsLine className="text-5xl md:text-7xl text-cyan-400" />
           </motion.div>
 
-          {/* MongoDB Icon */}
-          <motion.div
-            variants={iconsVariation(5)}
-            initial="initial"
-            animate="animate"
-            className="rounded-2xl border-4 border-slate-700 p-4"
-          >
-            <SiMongodb className="text-5xl md:text-7xl text-green-500" />
-          </motion.div>
+          
 
           {/* Node.js Icon */}
           <motion.div
@@ -148,6 +140,26 @@ const Skill = () => {
             className="rounded-2xl border-4 border-slate-700 p-4"
           >
             <RiFirebaseFill className="text-5xl md:text-7xl text-yellow-500" />
+          </motion.div>
+
+          {/* MongoDB Icon */}
+          <motion.div
+            variants={iconsVariation(5)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-slate-700 p-4"
+          >
+            <SiMongodb className="text-5xl md:text-7xl text-green-500" />
+          </motion.div>
+
+          {/* Mysql Icon */}
+          <motion.div
+            variants={iconsVariation(5)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-slate-700 p-4"
+          >
+            <TbBrandMysql className="text-5xl md:text-7xl text-yellow-500" />
           </motion.div>
 
           {/* GitHub Icon */}

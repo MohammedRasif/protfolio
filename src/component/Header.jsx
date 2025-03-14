@@ -1,4 +1,3 @@
-import img from "../component/picture.jpg";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 import resume from "./Jr web developer.pdf"
 import { motion } from "framer-motion";
@@ -8,7 +7,7 @@ const Header = () => {
     
   return (
     <div>
-      <div className="flex flex-col lg:flex-row lg:p-0 px-2 bg-black text-white">
+      <div id="home" className="flex flex-col lg:flex-row lg:p-0 px-2 bg-black text-white">
         {/* Text Section */}
         <motion.div
           className="lg:w-1/2 lg:ml-10 lg:mt-52 mt-16 lg:mb-[200px] mb-10 font-efg text-center lg:text-left"
@@ -64,11 +63,8 @@ const Header = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.5 }}
         >
-          <img
-            src={img}
-            alt="Mohammed Rasif"
-            className="lg:h-[500px] h-[250px] w-[250px] lg:w-[500px]  border-4 border-orange-500 rounded-full lg:mt-32 lg:ml-20"
-          />
+          <img src="https://res.cloudinary.com/dvubt5hiv/image/upload/v1734546012/feurlp1l7qqjv9ir9upa.jpg" alt="Mohammed Rasif"
+            className="lg:h-[530px] h-[250px] w-[250px] lg:w-[500px]  border-4 border-orange-500 rounded-full lg:mt-28 lg:ml-20" />
         </motion.div>
       </div>
     </div>

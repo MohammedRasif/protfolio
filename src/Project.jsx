@@ -7,7 +7,7 @@ const projects = [
     description:
       "Explore Electro-Mart, a collaborative e-commerce project designed to deliver a seamless shopping experience with intuitive design and user-friendly features.",
     image: "https://i.ibb.co.com/Czxkm5h/Screenshot-8.png",
-    link: "https://inspiring-torrone-8b8b9e.netlify.app/",
+    link: "https://electromart-pro.netlify.app/",
   },
   {
     id: 1,
@@ -106,7 +106,7 @@ const ProjectCard = ({ project }) => {
 
 const Project = () => {
   return (
-    <div className="bg-stone-900 lg:pb-10 py-10">
+    <div id="project" className="bg-stone-900 lg:pb-10 py-10">
       {/* Title Section */}
       <div className="text-center mb-10">
         <h1 className="text-center lg:text-7xl text-4xl font-abc font-extrabold text-white">Projects</h1>

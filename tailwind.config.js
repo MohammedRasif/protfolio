@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -11,9 +12,7 @@ export default {
       efg:["Josefin Sans","sans-serif"]
     }
   },
-  plugins: [
-    require('daisyui'),
-  ],
+  plugins: [],
   
 }
 

@@ -16,7 +16,7 @@ const Home = () => {
       <Navbar></Navbar>
       <Header></Header>
       <Skill></Skill>
-      <Experiance></Experiance>
+      {/* <Experiance></Experiance> */}
       <Project></Project>
       <Service></Service>
       <Education></Education>

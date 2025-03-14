@@ -5,7 +5,7 @@ import { IoPersonSharp } from "react-icons/io5";
 
 const Contact = () => {
   return (
-    <div className="lg:p-40 bg-black lg:pb-0 pb-10">
+    <div id="contact" className="lg:p-40 bg-black lg:pb-0 pb-10">
       <h1 className="text-center lg:text-7xl text-4xl lg:pt-0 pt-20 font-abc font-extrabold text-white">
         CONTACT ME
       </h1>

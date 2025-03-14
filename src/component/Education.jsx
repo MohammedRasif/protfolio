@@ -1,6 +1,6 @@
 const Education = () => {
   return (
-    <div className="lg:px-20 lg:py-20 lg:pt-20 pt-10 lg:p-0 p-5 bg-stone-900">
+    <div id="about" className="lg:px-20 lg:py-20 lg:pt-20 pt-10 lg:p-0 p-5 bg-stone-900">
        <h1 className="text-center lg:text-7xl text-4xl font-abc font-extrabold text-white">
         RESUME
       </h1>
